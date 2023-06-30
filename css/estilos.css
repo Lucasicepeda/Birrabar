@@ -1,0 +1,11 @@
+
+
+header h1{
+  /* background-image: url(/imagenes/logo_cel.png);*/
+  background-size: auto; 
+  /* background-repeat:round */
+  /* visibility: hidden; */
+  font-size: 200px;
+  background-image: url(/imagenes/logo_cel.png);
+}
+
