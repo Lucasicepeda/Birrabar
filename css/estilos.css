@@ -1,11 +1,71 @@
-
-
-header h1{
-  /* background-image: url(/imagenes/logo_cel.png);*/
-  background-size: auto; 
-  /* background-repeat:round */
-  /* visibility: hidden; */
-  font-size: 200px;
-  background-image: url(/imagenes/logo_cel.png);
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", Helvetica, sans-serif;
 }
 
+header{
+  background-color: chocolate;
+  border-bottom: #edd348 solid 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px;
+}
+
+h1{
+  background-image: url(/imagenes/logo_cel.png);
+  width:179px; height:177px;
+  text-indent: -1999px;
+  overflow: hidden;
+}
+
+nav{
+  width: 100%;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+}
+.navbar li{
+  margin:0px 1px;
+  display: block;
+  background-color: #fda400;
+  list-style: none;
+  width: 100%;
+  padding: 13px ;
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+}
+
+h2{
+  text-align:  center;
+  margin: 70px 0px 30px 0px;
+  font-size: 35px;
+}
+
+.pastillas{
+  display: flex;
+  flex-direction: column;
+  margin: 0% 25%;
+
+}
+
+.pastillas div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  row-gap: 20px;}
+
+.pastillas img{
+  border-radius: 100%;
+}
+
+.notaPrincipal h2,p {
+  text-align: left;
+  margin: 20px;
+}
