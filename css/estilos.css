@@ -39,6 +39,9 @@ nav{
   border-radius: 10px 10px 0px 0px;
   text-align: center;
 }
+main>img{
+  width: 100%;
+}
 
 h2{
   text-align:  center;
@@ -49,7 +52,7 @@ h2{
 .pastillas{
   display: flex;
   flex-direction: column;
-  margin: 0% 25%;
+  /* margin: 0% 25%; */
 
 }
 
@@ -68,4 +71,9 @@ h2{
 .notaPrincipal h2,p {
   text-align: left;
   margin: 20px;
+}
+
+.notaPrincipal img{
+  width: 100%;
+
 }
