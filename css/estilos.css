@@ -12,12 +12,12 @@ header{
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 0px;
 }
 
 h1{
   background-image: url(/imagenes/logo_cel.png);
   width:179px; height:177px;
+  margin: 40px 0px;
   text-indent: -1999px;
   overflow: hidden;
 }
@@ -38,6 +38,7 @@ nav{
   padding: 13px ;
   border-radius: 10px 10px 0px 0px;
   text-align: center;
+  color: white;
 }
 main>img{
   width: 100%;
@@ -45,15 +46,13 @@ main>img{
 
 h2{
   text-align:  center;
-  margin: 70px 0px 30px 0px;
+  margin: 70px 0px 20px 0px;
   font-size: 35px;
 }
 
 .pastillas{
   display: flex;
   flex-direction: column;
-  /* margin: 0% 25%; */
-
 }
 
 .pastillas div{
@@ -61,19 +60,69 @@ h2{
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 30px;
-  row-gap: 20px;}
+  padding: 30px 0px;
+  row-gap: 15px;
+}
 
 .pastillas img{
   border-radius: 100%;
 }
 
-.notaPrincipal h2,p {
+.pastillas h4{
+  font-weight: 300;
+  max-width: 310px;
+  margin: 0px 30px;
+}
+
+.notaPrincipal h2{
   text-align: left;
-  margin: 20px;
+  margin: 22px;
+}
+
+.notaPrincipal p{
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  margin: 22px;
 }
 
 .notaPrincipal img{
   width: 100%;
+}
 
+.notaPrincipal{
+  margin-bottom: 40px;
+}
+
+footer{
+  background-color: #cfcfcf;
+  padding: 60px 0px;
+}
+footer div p{
+  text-align: center;
+  margin: 20px;
+}
+
+/* Cuando el viewport supere los 799px sucede lo siguiente: */
+@media screen and (min-width: 800px) {
+  header{
+  flex-direction: row;
+  padding: 0px 30px;
+  }
+  header h1{
+    margin: 20px 0px;
+  }
+  .navbar li{
+  margin:0px 5px;
+  border-radius: 10px;
+  }
+  nav{
+  width: auto;
+  }
+  .pastillas{
+  flex-direction: row;
+  }
+  .banner{
+    content: url('/imagenes/banner.jpg')
+  }
 }
