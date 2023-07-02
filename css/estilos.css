@@ -123,6 +123,6 @@ footer div p{
   flex-direction: row;
   }
   .banner{
-    content: url('/imagenes/banner.jpg')
+    content: url("/imagenes/banner.jpg")
   }
 }
