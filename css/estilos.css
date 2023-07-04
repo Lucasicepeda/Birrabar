@@ -19,7 +19,7 @@ header{
 }
 
 h1{
-  background-image: url(/imagenes/logo_cel.png);
+  background-image: url('/imagenes/logo_cel.png');
   width:179px; height:177px;
   margin: 40px 0px;
   text-indent: -1999px;
@@ -129,10 +129,10 @@ footer div p{
   justify-content: center;
   }
   .banner{
-    content: url("/imagenes/banner.jpg")
+    content: url('/imagenes/banner.jpg')
   }
   .notaPrincipal div img{
-    content: url("/imagenes/nota_pc1.jpg");
+    content: url('/imagenes/nota_pc1.jpg');
   }
 }
 
@@ -140,13 +140,13 @@ footer div p{
   .notaPrincipal{
     display: flex;
     flex-direction: row;
-    align-items: flex-end; 
     margin: 80px 20px;
   }
   .notaPrincipal div{
     width: 50%;
   }
   .notaPrincipal div img{
-    content: url("/imagenes/nota_pc2.jpg");
+    content: url('/imagenes/notapc2.jpg');
+    align-items: flex-end; 
   }
 }
