@@ -4,7 +4,11 @@
   box-sizing: border-box;
   font-family: "Roboto", Helvetica, sans-serif;
 }
-
+body{
+  max-width: 1200px;
+  margin: auto;
+  background-color: #f8f8f8;
+}
 header{
   background-color: chocolate;
   border-bottom: #edd348 solid 20px;
@@ -111,6 +115,7 @@ footer div p{
   }
   header h1{
     margin: 20px 0px;
+    background-image: url(/imagenes/logo.png);
   }
   .navbar li{
   margin:0px 5px;
@@ -121,8 +126,27 @@ footer div p{
   }
   .pastillas{
   flex-direction: row;
+  justify-content: center;
   }
   .banner{
     content: url("/imagenes/banner.jpg")
+  }
+  .notaPrincipal div img{
+    content: url("/imagenes/nota_pc1.jpg");
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .notaPrincipal{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end; 
+    margin: 80px 20px;
+  }
+  .notaPrincipal div{
+    width: 50%;
+  }
+  .notaPrincipal div img{
+    content: url("/imagenes/nota_pc2.jpg");
   }
 }
